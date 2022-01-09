@@ -1,0 +1,96 @@
+html {
+    scroll-behavior: smooth;
+   }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size:2vh;
+    }
+
+
+li {
+    color:white;
+    float: left;    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+li a:hover {
+    color:white;
+    background-color: #111;
+}
+
+.login {
+    background-color: rgb(68, 68, 68);
+}
+
+#headback {
+    width:100%;
+    object-fit: cover;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    text-shadow: 5px 5px 5px black;
+}
+
+  .header_center_sub {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    text-shadow: 5px 5px 5px black;
+  }
+
+.row {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.footer {
+    width: 100%;
+    padding-bottom: 0.05vh;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    left:0px;
+}
+
+.border {
+    justify-content: space-between;
+}
+
+.editBtn {
+    width:100%;
+    padding:10px;
+    border:none;
+}
+
+.editBtn:hover {
+    background-color: lightgrey;
+}
